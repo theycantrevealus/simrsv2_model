@@ -1,0 +1,16 @@
+{
+  "name": "simrsv2_model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typeorm:migration:generate": "npm run typeorm -- migration:generate -n",
+    "typeorm:migration:run": "npm run typeorm -- migration:run",
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typeorm-model-generator": "^0.4.6-no-engines"
+  }
+}
