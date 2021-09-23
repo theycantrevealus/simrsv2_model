@@ -9,7 +9,7 @@ export class InventoriAmprahDetail {
   @Column("uuid", { name: "amprah" })
   amprah: string;
 
-  @Column("double precision", { name: "jumlah", precision: 53 })
+  @Column("double precision", { name: "jumlah"})
   jumlah: number;
 
   @Column("timestamp without time zone", { name: "created_at" })

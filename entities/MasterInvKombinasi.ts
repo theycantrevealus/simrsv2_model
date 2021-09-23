@@ -18,6 +18,6 @@ export class MasterInvKombinasi {
   @Column("integer", { name: "varian" })
   varian: number;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 }

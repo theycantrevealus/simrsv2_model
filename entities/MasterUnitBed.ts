@@ -32,6 +32,6 @@ export class MasterUnitBed {
   })
   status: string | null;
 
-  @Column("double precision", { name: "tarif", nullable: true, precision: 53 })
+  @Column("double precision", { name: "tarif", nullable: true})
   tarif: number | null;
 }

@@ -18,7 +18,7 @@ export class IgdRiwayatObat {
   @Column("text", { name: "keterangan", nullable: true })
   keterangan: string | null;
 
-  @Column("double precision", { name: "qty", nullable: true, precision: 53 })
+  @Column("double precision", { name: "qty", nullable: true})
   qty: number | null;
 
   @Column("uuid", { name: "nurse_station", nullable: true })

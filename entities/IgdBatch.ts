@@ -18,7 +18,7 @@ export class IgdBatch {
   @Column("character varying", { name: "obat" })
   obat: string;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 
   @Column("uuid", { name: "batch", nullable: true })

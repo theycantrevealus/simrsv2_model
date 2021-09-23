@@ -12,7 +12,7 @@ export class MasterInvSatuanKonversi {
   @Column("uuid", { name: "dari_satuan" })
   dariSatuan: string;
 
-  @Column("double precision", { name: "rasio", precision: 53 })
+  @Column("double precision", { name: "rasio"})
   rasio: number;
 
   @Column("uuid", { name: "ke_satuan" })

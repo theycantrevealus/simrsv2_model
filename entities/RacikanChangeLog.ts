@@ -9,7 +9,7 @@ export class RacikanChangeLog {
   @Column("uuid", { name: "racikan" })
   racikan: string;
 
-  @Column("double precision", { name: "jumlah", precision: 53 })
+  @Column("double precision", { name: "jumlah"})
   jumlah: number;
 
   @Column("text", { name: "keterangan", nullable: true })

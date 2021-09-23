@@ -15,10 +15,10 @@ export class InventoriStokOpnameDetail {
   @Column("uuid", { name: "batch" })
   batch: string;
 
-  @Column("double precision", { name: "qty_awal", precision: 53 })
+  @Column("double precision", { name: "qty_awal"})
   qtyAwal: number;
 
-  @Column("double precision", { name: "qty_akhir", precision: 53 })
+  @Column("double precision", { name: "qty_akhir"})
   qtyAkhir: number;
 
   @Column("text", { name: "keterangan" })

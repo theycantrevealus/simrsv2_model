@@ -2,7 +2,7 @@ import { Column, Entity } from "typeorm";
 
 @Entity("asesmen_rawat_ortodonti", { schema: "public" })
 export class AsesmenRawatOrtodonti {
-  @Column("uuid", { name: "uid" })
+  @Column("uuid", { primary: true, name: "uid" })
   uid: string;
 
   @Column("character varying", { name: "cara_masuk_lainnya", nullable: true })

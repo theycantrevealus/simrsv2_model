@@ -18,7 +18,7 @@ export class RawatInapBatch {
   @Column("character varying", { name: "obat" })
   obat: string;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 
   @Column("timestamp without time zone", { name: "created_at" })

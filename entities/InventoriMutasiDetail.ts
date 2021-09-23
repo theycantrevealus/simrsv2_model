@@ -15,7 +15,7 @@ export class InventoriMutasiDetail {
   @Column("uuid", { name: "batch" })
   batch: string;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 
   @Column("text", { name: "keterangan", nullable: true })

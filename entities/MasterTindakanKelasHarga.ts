@@ -12,7 +12,7 @@ export class MasterTindakanKelasHarga {
   @Column("uuid", { name: "kelas", nullable: true })
   kelas: string | null;
 
-  @Column("double precision", { name: "harga", nullable: true, precision: 53 })
+  @Column("double precision", { name: "harga", nullable: true})
   harga: number | null;
 
   @Column("timestamp without time zone", { name: "created_at" })

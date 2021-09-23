@@ -15,7 +15,7 @@ export class InvoicePaymentRetur {
   @Column("uuid", { name: "pegawai" })
   pegawai: string;
 
-  @Column("double precision", { name: "total", precision: 53 })
+  @Column("double precision", { name: "total"})
   total: number;
 
   @Column("timestamp without time zone", { name: "created_at" })

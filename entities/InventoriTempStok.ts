@@ -24,7 +24,7 @@ export class InventoriTempStok {
   @Column("uuid", { name: "batch" })
   batch: string;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 
   @Column("character", { name: "status", length: 1, default: () => "'P'" })

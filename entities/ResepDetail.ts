@@ -12,7 +12,7 @@ export class ResepDetail {
   @Column("uuid", { name: "obat" })
   obat: string;
 
-  @Column("double precision", { name: "harga", precision: 53 })
+  @Column("double precision", { name: "harga"})
   harga: number;
 
   @Column("character varying", { name: "signa_qty" })
@@ -21,7 +21,7 @@ export class ResepDetail {
   @Column("character varying", { name: "signa_pakai" })
   signaPakai: string;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 
   @Column("uuid", { name: "satuan" })

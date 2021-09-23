@@ -21,7 +21,7 @@ export class RawatInapRiwayatObat {
   @Column("timestamp without time zone", { name: "logged_at" })
   loggedAt: Date;
 
-  @Column("double precision", { name: "qty", nullable: true, precision: 53 })
+  @Column("double precision", { name: "qty", nullable: true})
   qty: number | null;
 
   @Column("uuid", { name: "nurse_station", nullable: true })

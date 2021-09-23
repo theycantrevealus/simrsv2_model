@@ -15,13 +15,13 @@ export class InventoriStokLog {
   @Column("uuid", { name: "gudang" })
   gudang: string;
 
-  @Column("double precision", { name: "masuk", precision: 53 })
+  @Column("double precision", { name: "masuk"})
   masuk: number;
 
-  @Column("double precision", { name: "keluar", precision: 53 })
+  @Column("double precision", { name: "keluar"})
   keluar: number;
 
-  @Column("double precision", { name: "saldo", precision: 53 })
+  @Column("double precision", { name: "saldo"})
   saldo: number;
 
   @Column("integer", { name: "type", nullable: true, default: () => "0" })

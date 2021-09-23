@@ -27,7 +27,7 @@ export class ResepChangeLog {
   @Column("uuid", { name: "item", nullable: true })
   item: string | null;
 
-  @Column("double precision", { name: "qty", nullable: true, precision: 53 })
+  @Column("double precision", { name: "qty", nullable: true})
   qty: number | null;
 
   @Column("character varying", { name: "signa_qty", nullable: true })

@@ -12,19 +12,19 @@ export class PoDetail {
   @Column("uuid", { name: "item" })
   item: string;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 
-  @Column("double precision", { name: "price", precision: 53 })
+  @Column("double precision", { name: "price"})
   price: number;
 
-  @Column("double precision", { name: "discount", precision: 53 })
+  @Column("double precision", { name: "discount"})
   discount: number;
 
   @Column("character", { name: "discount_type", length: 1 })
   discountType: string;
 
-  @Column("double precision", { name: "total", precision: 53 })
+  @Column("double precision", { name: "total"})
   total: number;
 
   @Column("text", { name: "keterangan", nullable: true })

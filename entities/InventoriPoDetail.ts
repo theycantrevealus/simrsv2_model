@@ -12,22 +12,22 @@ export class InventoriPoDetail {
   @Column("uuid", { name: "barang" })
   barang: string;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 
   @Column("uuid", { name: "satuan" })
   satuan: string;
 
-  @Column("double precision", { name: "harga", precision: 53 })
+  @Column("double precision", { name: "harga"})
   harga: number;
 
-  @Column("double precision", { name: "disc", precision: 53 })
+  @Column("double precision", { name: "disc"})
   disc: number;
 
   @Column("character", { name: "disc_type", length: 1 })
   discType: string;
 
-  @Column("double precision", { name: "subtotal", precision: 53 })
+  @Column("double precision", { name: "subtotal"})
   subtotal: number;
 
   @Column("text", { name: "keterangan", nullable: true })

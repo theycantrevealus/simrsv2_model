@@ -12,10 +12,10 @@ export class MasterInvMonitoring {
   @Column("uuid", { name: "gudang" })
   gudang: string;
 
-  @Column("double precision", { name: "min", precision: 53 })
+  @Column("double precision", { name: "min"})
   min: number;
 
-  @Column("double precision", { name: "max", precision: 53 })
+  @Column("double precision", { name: "max"})
   max: number;
 
   @Column("timestamp without time zone", { name: "created_at" })

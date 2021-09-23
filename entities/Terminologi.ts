@@ -10,7 +10,7 @@ import { TerminologiItem } from "./TerminologiItem";
 @Index("id", ["id"], { unique: true })
 @Entity("terminologi", { schema: "public" })
 export class Terminologi {
-  @PrimaryGeneratedColumn({ type: "integer", name: "id", nullable: true })
+  @PrimaryGeneratedColumn({ type: "integer", name: "id" })
   id: number | null;
 
   @Column("character varying", { name: "nama", length: 50 })

@@ -15,16 +15,16 @@ export class InvoiceDetail {
   @Column("character varying", { name: "item_type", length: 80 })
   itemType: string;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 
-  @Column("double precision", { name: "harga", precision: 53 })
+  @Column("double precision", { name: "harga"})
   harga: number;
 
-  @Column("double precision", { name: "subtotal", precision: 53 })
+  @Column("double precision", { name: "subtotal"})
   subtotal: number;
 
-  @Column("double precision", { name: "discount", precision: 53 })
+  @Column("double precision", { name: "discount"})
   discount: number;
 
   @Column("character", {

@@ -18,10 +18,10 @@ export class IgdReturObat {
   @Column("uuid", { name: "batch" })
   batch: string;
 
-  @Column("double precision", { name: "sisa", nullable: true, precision: 53 })
+  @Column("double precision", { name: "sisa", nullable: true})
   sisa: number | null;
 
-  @Column("double precision", { name: "aktual", nullable: true, precision: 53 })
+  @Column("double precision", { name: "aktual", nullable: true})
   aktual: number | null;
 
   @Column("text", { name: "keterangan", nullable: true })

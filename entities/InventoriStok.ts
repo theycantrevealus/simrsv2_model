@@ -15,6 +15,6 @@ export class InventoriStok {
   @Column("uuid", { name: "gudang" })
   gudang: string;
 
-  @Column("double precision", { name: "stok_terkini", precision: 53 })
+  @Column("double precision", { name: "stok_terkini"})
   stokTerkini: number;
 }

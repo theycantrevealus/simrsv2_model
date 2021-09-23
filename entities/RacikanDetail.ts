@@ -12,10 +12,10 @@ export class RacikanDetail {
   @Column("uuid", { name: "obat" })
   obat: string;
 
-  @Column("double precision", { name: "pembulatan", precision: 53 })
+  @Column("double precision", { name: "pembulatan"})
   pembulatan: number;
 
-  @Column("double precision", { name: "harga", precision: 53 })
+  @Column("double precision", { name: "harga"})
   harga: number;
 
   @Column("timestamp without time zone", { name: "created_at" })
@@ -33,7 +33,7 @@ export class RacikanDetail {
   @Column("uuid", { name: "penjamin", nullable: true })
   penjamin: string | null;
 
-  @Column("double precision", { name: "ratio", precision: 53 })
+  @Column("double precision", { name: "ratio"})
   ratio: number;
 
   @Column("double precision", {

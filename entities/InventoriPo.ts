@@ -12,16 +12,16 @@ export class InventoriPo {
   @Column("uuid", { name: "pegawai" })
   pegawai: string;
 
-  @Column("double precision", { name: "total", precision: 53 })
+  @Column("double precision", { name: "total"})
   total: number;
 
-  @Column("double precision", { name: "disc", precision: 53 })
+  @Column("double precision", { name: "disc"})
   disc: number;
 
   @Column("character", { name: "disc_type", length: 1 })
   discType: string;
 
-  @Column("double precision", { name: "total_after_disc", precision: 53 })
+  @Column("double precision", { name: "total_after_disc"})
   totalAfterDisc: number;
 
   @Column("timestamp without time zone", { name: "tanggal_po" })

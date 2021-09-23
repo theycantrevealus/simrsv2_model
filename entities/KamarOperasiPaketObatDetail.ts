@@ -1,4 +1,4 @@
-import { Column, Entity, Index, PrimaryGeneratedColumn } from "typeorm";
+  import { Column, Entity, Index, PrimaryGeneratedColumn } from "typeorm";
 
 @Index("kamar_operasi_paket_obat_detail_pkey", ["id"], { unique: true })
 @Entity("kamar_operasi_paket_obat_detail", { schema: "public" })
@@ -12,7 +12,7 @@ export class KamarOperasiPaketObatDetail {
   @Column("uuid", { name: "obat" })
   obat: string;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 
   @Column("text", { name: "remark", nullable: true })

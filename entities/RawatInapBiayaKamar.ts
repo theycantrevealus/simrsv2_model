@@ -18,7 +18,7 @@ export class RawatInapBiayaKamar {
   @Column("uuid", { name: "bed", nullable: true })
   bed: string | null;
 
-  @Column("double precision", { name: "harga", nullable: true, precision: 53 })
+  @Column("double precision", { name: "harga", nullable: true})
   harga: number | null;
 
   @Column("uuid", { name: "invoice", nullable: true })

@@ -27,13 +27,13 @@ export class PoMaster {
   @Column("timestamp without time zone", { name: "deleted_at", nullable: true })
   deletedAt: Date | null;
 
-  @Column("double precision", { name: "discount", precision: 53 })
+  @Column("double precision", { name: "discount"})
   discount: number;
 
   @Column("character", { name: "discount_type", length: 1 })
   discountType: string;
 
-  @Column("double precision", { name: "total", precision: 53 })
+  @Column("double precision", { name: "total"})
   total: number;
 
   @Column("text", { name: "keterangan", nullable: true })

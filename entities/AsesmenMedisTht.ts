@@ -24,22 +24,22 @@ export class AsesmenMedisTht {
   @Column("text", { name: "keluhan_tambahan" })
   keluhanTambahan: string;
 
-  @Column("double precision", { name: "tekanan_darah", precision: 53 })
+  @Column("double precision", { name: "tekanan_darah"})
   tekananDarah: number;
 
-  @Column("double precision", { name: "nadi", precision: 53 })
+  @Column("double precision", { name: "nadi"})
   nadi: number;
 
-  @Column("double precision", { name: "pernafasan", precision: 53 })
+  @Column("double precision", { name: "pernafasan"})
   pernafasan: number;
 
-  @Column("double precision", { name: "berat_badan", precision: 53 })
+  @Column("double precision", { name: "berat_badan"})
   beratBadan: number;
 
-  @Column("double precision", { name: "tinggi_badan", precision: 53 })
+  @Column("double precision", { name: "tinggi_badan"})
   tinggiBadan: number;
 
-  @Column("double precision", { name: "lingkar_lengan_atas", precision: 53 })
+  @Column("double precision", { name: "lingkar_lengan_atas"})
   lingkarLenganAtas: number;
 
   @Column("text", { name: "pemeriksaan_fisik" })
@@ -66,7 +66,7 @@ export class AsesmenMedisTht {
   @Column("uuid", { name: "asesmen" })
   asesmen: string;
 
-  @Column("double precision", { name: "suhu", precision: 53 })
+  @Column("double precision", { name: "suhu"})
   suhu: number;
 
   @Column("text", { name: "icd10_kerja" })

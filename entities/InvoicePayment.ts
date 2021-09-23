@@ -12,10 +12,10 @@ export class InvoicePayment {
   @Column("uuid", { name: "pegawai" })
   pegawai: string;
 
-  @Column("double precision", { name: "terbayar", precision: 53 })
+  @Column("double precision", { name: "terbayar"})
   terbayar: number;
 
-  @Column("double precision", { name: "sisa_bayar", precision: 53 })
+  @Column("double precision", { name: "sisa_bayar"})
   sisaBayar: number;
 
   @Column("text", { name: "keterangan" })

@@ -15,10 +15,10 @@ export class InvoicePaymentReturDetail {
   @Column("character varying", { name: "item_type", length: 30 })
   itemType: string;
 
-  @Column("double precision", { name: "qty", precision: 53 })
+  @Column("double precision", { name: "qty"})
   qty: number;
 
-  @Column("double precision", { name: "harga", precision: 53 })
+  @Column("double precision", { name: "harga"})
   harga: number;
 
   @Column("text", { name: "keterangan" })

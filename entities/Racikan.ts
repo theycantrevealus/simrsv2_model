@@ -12,7 +12,7 @@ export class Racikan {
   @Column("character varying", { name: "kode", length: 50 })
   kode: string;
 
-  @Column("double precision", { name: "total", precision: 53 })
+  @Column("double precision", { name: "total"})
   total: number;
 
   @Column("timestamp without time zone", { name: "created_at" })
@@ -33,7 +33,7 @@ export class Racikan {
   @Column("character varying", { name: "signa_pakai", nullable: true })
   signaPakai: string | null;
 
-  @Column("double precision", { name: "qty", nullable: true, precision: 53 })
+  @Column("double precision", { name: "qty", nullable: true})
   qty: number | null;
 
   @Column("integer", { name: "aturan_pakai", nullable: true })

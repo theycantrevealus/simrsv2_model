@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
     "typeorm:migration:generate": "npm run typeorm -- migration:generate -n",
-    "typeorm:migration:run": "npm run typeorm -- migration:run",
+    "typeorm:migration:run": "npm run typeorm -- migration:run"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "pg": "^8.7.1",
+    "ts-node": "^10.2.1",
+    "tsconfig-paths": "^3.11.0",
+    "typeorm": "^0.2.37",
     "typeorm-model-generator": "^0.4.6-no-engines"
   }
 }

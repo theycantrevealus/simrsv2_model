@@ -15,7 +15,7 @@ export class InventoriDoDetail {
   @Column("date", { name: "kadaluarsa", nullable: true })
   kadaluarsa: string | null;
 
-  @Column("double precision", { name: "qty", nullable: true, precision: 53 })
+  @Column("double precision", { name: "qty", nullable: true})
   qty: number | null;
 
   @Column("text", { name: "keterangan", nullable: true })

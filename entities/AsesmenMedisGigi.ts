@@ -31,7 +31,7 @@ export class AsesmenMedisGigi {
   })
   tekananDarah: number | null;
 
-  @Column("double precision", { name: "nadi", nullable: true, precision: 53 })
+  @Column("double precision", { name: "nadi", nullable: true})
   nadi: number | null;
 
   @Column("double precision", {
@@ -86,7 +86,7 @@ export class AsesmenMedisGigi {
   @Column("uuid", { name: "asesmen" })
   asesmen: string;
 
-  @Column("double precision", { name: "suhu", nullable: true, precision: 53 })
+  @Column("double precision", { name: "suhu", nullable: true})
   suhu: number | null;
 
   @Column("text", { name: "icd10_kerja", nullable: true })

@@ -24,6 +24,6 @@ export class MasterMitraProvider {
   @Column("timestamp without time zone", { name: "deleted_at", nullable: true })
   deletedAt: Date | null;
 
-  @Column("double precision", { name: "harga", nullable: true, precision: 53 })
+  @Column("double precision", { name: "harga", nullable: true})
   harga: number | null;
 }

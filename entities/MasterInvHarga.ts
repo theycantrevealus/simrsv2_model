@@ -12,7 +12,7 @@ export class MasterInvHarga {
   @Column("uuid", { name: "penjamin" })
   penjamin: string;
 
-  @Column("double precision", { name: "profit", precision: 53 })
+  @Column("double precision", { name: "profit"})
   profit: number;
 
   @Column("timestamp without time zone", { name: "created_at" })
